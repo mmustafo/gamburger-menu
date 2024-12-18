@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sitenav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.main-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main-list-item {
+  padding: 24px 48px;
+
+  background-color: rgb(19, 14, 14);
+  color: aliceblue;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+
+  background-color: rgb(248, 248, 248);
+  border-top: 2px solid rgb(80, 80, 80);
+
+  padding-bottom: 30px;
+  position: absolute;
+  top: 55px;
+
+  transition-timing-function: ease;
+
+  transition-delay: 0;
+  transition-property: opacity;
+  transition-duration: 2.5s;
+}
+
+.navmenu__ul__df {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.nav-menu-item {
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#optn-input:checked + div {
+  border-top: none;
+  border-radius: 20px ;
+  background-color: bisque;
+  opacity: 1;
+}
+
+#inpu-checkbox{
+}
